@@ -1,5 +1,5 @@
 from django.test import TestCase, RequestFactory
-from events.views import post_list
+from blog.views import post_list
 
 class PostTestCase(TestCase):
 
@@ -11,4 +11,4 @@ class PostTestCase(TestCase):
         response = post_list(request)
         self.assertEqual(response.get('content-type'), 'text/html; charset=utf-8')
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'Nasa')
+        self.assertContains(response, 'NASA')
