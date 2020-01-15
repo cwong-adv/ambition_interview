@@ -1,0 +1,35 @@
+{% load static %}
+<html>
+<head>
+    <title>NASA events blog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#button").click(function(e) {
+        $.ajax({
+            url: "/api"
+        })
+        .done(function(data) {
+            let response = '';
+            data.event_list.forEach(function(val,index) {
+                response += '<div>' + (index+1) + '. ' + val.fields.event_name + ' ' + val.fields.event_date +  '</div>'
+            })
+            $( "#results" ).empty().append(response);
+        });
+    });
+});
+</script>
+<body>
+    <div class="page-header">
+        <h1>NASA Events Blog</h1>
+    </div>
+    <div class="content container">
+        <button id="button">Get Results</button>
+        <div id="results"> </div>
+    </div>
+</body>
+</html>
