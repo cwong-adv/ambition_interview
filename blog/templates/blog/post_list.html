@@ -6,24 +6,6 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript">
-
-
-$(document).ready(function() {
-    $("#button").click(function(e) {
-        fetch('/api')
-            .then(response => response.json())
-            .then(function(data){
-                let response = '';
-                data.event_list.forEach(function(val,index) {
-                    response += '<div>' + (index+1) + '. ' + val.fields.event_name + ' ' + val.fields.event_date +  '</div>'
-                })
-                $( "#results" ).empty().append(response);
-            })
-    });
-});
-</script>
 <body>
     <div class="page-header">
         <h1>NASA Events Blog</h1>
@@ -33,4 +15,18 @@ $(document).ready(function() {
         <div id="results"> </div>
     </div>
 </body>
+<script type="text/javascript">
+document.querySelector("#button").onclick = () => {
+    let results = document.querySelector("#results");
+    fetch('/api')
+        .then(response => response.json())
+        .then(function(data){
+            let response = '';
+            data.event_list.forEach(function(val,index) {
+                response += '<div>' + (index+1) + '. ' + val.fields.event_name + ' ' + val.fields.event_date +  '</div>'
+            })
+            results.innerHTML = response;
+        })
+};
+</script>
 </html>
