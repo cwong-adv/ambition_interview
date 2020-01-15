@@ -8,18 +8,19 @@
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
+
+
 $(document).ready(function() {
     $("#button").click(function(e) {
-        $.ajax({
-            url: "/api"
-        })
-        .done(function(data) {
-            let response = '';
-            data.event_list.forEach(function(val,index) {
-                response += '<div>' + (index+1) + '. ' + val.fields.event_name + ' ' + val.fields.event_date +  '</div>'
+        fetch('/api')
+            .then(response => response.json())
+            .then(function(data){
+                let response = '';
+                data.event_list.forEach(function(val,index) {
+                    response += '<div>' + (index+1) + '. ' + val.fields.event_name + ' ' + val.fields.event_date +  '</div>'
+                })
+                $( "#results" ).empty().append(response);
             })
-            $( "#results" ).empty().append(response);
-        });
     });
 });
 </script>
