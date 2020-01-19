@@ -1,0 +1,547 @@
+{
+	"title": "EONET Events: Wildfires",
+	"description": "Wildfires includes all nature of fire, including forest and plains fires, as well as urban and industrial fire events. Fires may be naturally caused or manmade.",
+	"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/categories/8",
+	"events": [
+		{
+			"id": "EONET_4557",
+			"title": "Wildfire - Angol Commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4557",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=101738"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-17T19:33:00Z",
+					"type": "Point", 
+					"coordinates": [ -72.69914, -37.80482 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4554",
+			"title": "Wildfire -  Chillán commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4554",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=101667"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-16T19:53:00Z",
+					"type": "Point", 
+					"coordinates": [ -72.11591, -36.68486 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4555",
+			"title": "Wildfires -  Central Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4555",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=101665"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-16T19:51:00Z",
+					"type": "Point", 
+					"coordinates": [ -72.94448, -37.21073 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4553",
+			"title": "Wildfire - Niquen Commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4553",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=101554"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-15T20:34:00Z",
+					"type": "Point", 
+					"coordinates": [ -72.09111, -36.25644 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4548",
+			"title": "Wildfire - Southern Switzerland",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4548",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=100921"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-09T15:21:00Z",
+					"type": "Point", 
+					"coordinates": [ 8.64015, 46.38808 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4547",
+			"title": "Wildfire - Navidad commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4547",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=100809"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-08T18:53:00Z",
+					"type": "Point", 
+					"coordinates": [ -71.82816, -33.95908 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4546",
+			"title": "Wildfires - Southern Switzerland",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4546",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=100684"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-06T16:14:00Z",
+					"type": "Point", 
+					"coordinates": [ 8.86869, 46.28365 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4543",
+			"title": "Wildfire - Hualaihué commune, Chile ",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4543",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=100438"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-02T15:06:00Z",
+					"type": "Point", 
+					"coordinates": [ -72.65502, -41.96884 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4544",
+			"title": "Wildfire - Chillán Viejo, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4544",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=100436"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2020-01-02T15:03:00Z",
+					"type": "Point", 
+					"coordinates": [ -72.1416, -36.62385 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4541",
+			"title": "Coltauco commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4541",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=100263"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-30T16:17:00Z",
+					"type": "Point", 
+					"coordinates": [ -71.09774, -34.28624 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4535",
+			"title": "Wildfires - Valparaíso commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4535",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99879"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-24T16:03:00Z",
+					"type": "Point", 
+					"coordinates": [ -71.6058, -33.05002 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4534",
+			"title": "Wildfires - San Pedro, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4534",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99809"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-23T13:45:00Z",
+					"type": "Point", 
+					"coordinates": [ -71.4552, -33.89392 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4532",
+			"title": "Wildfires - Victoria, Australia",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4532",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99659"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-20T17:01:00Z",
+					"type": "Point", 
+					"coordinates": [ 147.36368, -37.53495 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4542",
+			"title": "Wildfires - New South Wales, Australia",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4542",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99658"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-20T17:00:00Z",
+					"type": "Point", 
+					"coordinates": [ 152.127127635, -29.316364295 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4533",
+			"title": "Wildfires - Vallenar Commune, Chile",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4533",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99657"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-20T16:58:00Z",
+					"type": "Point", 
+					"coordinates": [ -70.75536, -28.57662 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4530",
+			"title": "Wildfires - South Australia, Australia",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4530",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99542"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-18T16:40:00Z",
+					"type": "Point", 
+					"coordinates": [ 138.92105, -34.75226 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4531",
+			"title": "Wildfire - N of Drohobych, Lviv - Ukraine",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4531",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99506"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-18T12:24:00Z",
+					"type": "Point", 
+					"coordinates": [ 23.59165809, 49.522291064 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4528",
+			"title": "Wildfire - Paia, Maui, HI, United States ",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4528",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99213"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-14T21:22:00Z",
+					"type": "Point", 
+					"coordinates": [ -156.36924, 20.90311 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4524",
+			"title": "Wildfires - Western Australia, Australia",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4524",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=99078"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-12-11T16:22:00Z",
+					"type": "Point", 
+					"coordinates": [ 115.605888138, -31.416063915 ]
+				}
+			
+			]
+		},
+		{
+			"id": "EONET_4508",
+			"title": "Wildfires - Yorketown, South Australia, Australia",
+            "description": "",
+			"link": "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events/EONET_4508",
+			"categories": [
+				{
+					"id": 8,
+					"title": "Wildfires"
+				}
+			],
+			"sources": [
+				{
+					"id": "PDC",
+					"url": "http://emops.pdc.org/emops/?hazard_id=98098"
+				}
+			
+			],
+			"geometries": [
+				{
+					"date": "2019-11-20T16:15:00Z",
+					"type": "Point", 
+					"coordinates": [ 137.65021, -35.03838 ]
+				}
+			
+			]
+		}
+	]
+}
