@@ -27,6 +27,12 @@ def event_api(request):
     response = '{"event_list":' + event_list + '}'
     return HttpResponse(response, content_type="application/json")
 
+def sql_api(request):
+    events = Event.objects.raw("SELECT * FROM blog_event;")
+    event_list = serializers.serialize('json', events)
+    response = '{"event_list":' + event_list + '}'
+    return HttpResponse(response, content_type="application/json")
+
 def task_state(request):
     data = 'Fail'
     if request.is_ajax():
