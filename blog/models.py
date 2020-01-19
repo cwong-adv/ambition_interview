@@ -6,13 +6,13 @@ from entity.config import register_entity, EntityConfig
 
 class Category(models.Model):
     category_id = models.IntegerField()
-    category_title = models.CharField(max_length=200)
+    category_title = models.CharField(max_length=200, unique=True)
 
     def __str__(self):
-        return "%s | %s " % (self.category_title, self.category_id)
+        return "%s | %s " % (self.category_title, self.category_field_id)
 
 class Event(models.Model):
-    category_id = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     event_name = models.CharField(max_length=200)
     event_date = models.DateTimeField(default=timezone.now)
 
@@ -29,5 +29,5 @@ class EventConfig(EntityConfig):
 
     #def get_super_entities(self, model_objs):
         #return {
-            #Category: [(model_obj.id, model_obj.group_id) for model_obj in model_objs]
-       # }
+            #Category: [(model_obj.id, model_obj.category_title) for model_obj in model_objs]
+        #}

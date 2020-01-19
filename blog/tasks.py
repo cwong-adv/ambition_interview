@@ -18,15 +18,11 @@ def fetch_url(url):
         event_name = e["title"]
         event_date = e["geometries"][0]["date"]
 
-        if not Category.objects.filter(category_id=category_id):
-            new_category = Category(category_id=category_id,
-                                    category_title=category_title)
-            new_category.save()
+        new_category, created = Category.objects.get_or_create(category_id=category_id, category_title=category_title)
+        new_event, created = Event.objects.get_or_create(category=Category.objects.get(category_id=category_id),
+                                                         event_name=event_name,
+                                                         event_date=event_date)
 
-        if not Event.objects.filter(event_name=event_name):
-            new_event = Event(event_name=event_name,
-                              event_date=event_date)
-            new_event.save()
 
 
 
